@@ -1,4 +1,4 @@
-# AWS Lambda Simple S3 Function Project
+# AWS Lambda Html To PDF Project
 
 This starter project consists of:
 * Function.cs - class file containing a class with a single function handler method
@@ -6,8 +6,7 @@ This starter project consists of:
 
 You may also have a test project depending on the options selected.
 
-The generated function handler responds to events on an Amazon S3 bucket. The handler receives the bucket and object key details in an S3Event instance and returns the content type of the object as the function output. Replace the body of this method, and parameters, to suit your needs.
-
+The function handler responds to events on an Amazon S3 bucket. The handler receives the bucket and object key details in an S3Event instance and returns the content type of the object as the function output. 
 After deploying your function you must configure an Amazon S3 bucket as an event source to trigger your Lambda function.
 
 ## Here are some steps to follow from Visual Studio:
